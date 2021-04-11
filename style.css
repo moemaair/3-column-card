@@ -1,0 +1,311 @@
+/* desktop/laptop css */
+@import url("https://fonts.googleapis.com/css2?family=Lexend+Deca&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Lexend+Deca&display=swap");
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+ background-color: white;
+
+
+}
+.container{
+   display: flex;
+   max-width: 1400px;
+   width: 90%;
+   flex-direction: row;
+}
+
+.content p{
+    position: relative;
+    top:68px;
+    padding-left: 2.0rem;
+    font-family: Lexend Deca;
+    font-weight: 50px;
+    color: hsl(0, 0%, 95%);
+
+}
+#icon {
+    position: relative;
+    top: 20px;
+    padding-left: 2.0rem;
+}
+.content{
+    height: 55vh;
+    width: 50vw;
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    left:200px;
+    top: 120px;
+    margin-left: 160px;
+    color: white;
+}
+
+.content h4{
+   
+    font-size: 2.5rem;
+    font-family: "Big Shoulders Display", cursive;
+    position: relative;
+    top: 34px;
+    padding: 1.5rem;
+
+
+}
+
+.sedan{
+   background-color: #e38826; 
+   border-radius: 0.6rem 0 0 0 ;
+   
+    
+}
+.suvs{
+   background-color: #117478;
+   padding-right: 4px;
+}
+.luxury{
+    
+    background-color: #004241;
+    padding-right: 4px;
+    border-radius: 0rem 0.6rem 0 0;
+}
+.learnmore{
+   position: relative;
+   right: -130px;
+    top:100px;
+    left: 70px;
+  
+    
+}
+.learnmore p {
+
+height: 3vh;
+text-align: center;
+color: black;
+border-radius: 400px;
+
+}
+.btn{
+    border-radius: 30px;
+    border: 1px solid white;
+    width: 50%;
+    height: 40px;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    left: -25px;
+
+}
+.sedan .learnmore .btn:hover{
+  
+   background-color: #e38826;
+   border: 1px solid white;
+}
+
+.sedan .learnmore .btn h3:hover{
+  
+    color: white;
+}
+
+
+.suvs .learnmore .btn:hover{
+  background-color: #117478;
+  border: 1px solid white;
+}
+.suvs .learnmore .btn h3:hover{
+  
+    color: white;
+}
+.luxury .learnmore .btn:hover{
+    background-color: #004241;
+    border: 1px solid white;
+  }
+  .luxury .learnmore .btn h3:hover{
+    
+      color: white;
+  }
+
+.btn h3{
+    color: black;
+    position: relative;
+    left: 18px;
+    top:0;
+    padding-top: 10px;
+}
+
+.sedan .btn h3{
+    color: #e38826;
+}
+.suvs .btn h3{
+    color: #117478;
+}
+.luxury .btn h3{
+    color: #004241;
+}
+
+/* mobile css */
+
+
+@media screen and (max-width:375px) {
+@import url("https://fonts.googleapis.com/css2?family=Lexend+Deca&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Lexend+Deca&display=swap");
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+ background-color: white;
+
+}
+.container{
+  display: flex;
+ 
+
+
+  
+
+}
+
+.content p{
+    position: relative;
+    left: -30px;
+    top: -10px;
+    display: flex;
+    padding-left: 4rem;
+   color: hsl(0, 0%, 95%);
+    font-weight: 50;
+   
+
+
+}
+#icon {
+    position: relative;
+    top: 20px;
+    padding-left: 2.0rem;
+}
+.content{
+    flex-direction: column;
+    display: flex;
+    width: 700px;
+    height: 350px;
+   
+   margin-bottom: 40px;
+   
+}
+
+.content h4{
+   
+    font-size: 2.5rem;
+    font-family: "Big Shoulders Display", cursive;
+    position: relative;
+    top: -15px;
+    padding: 1.5rem;
+
+
+}
+
+.sedan{
+   background-color: #e38826; 
+   border-radius: 0.6rem 0 0 0 ;
+   
+    
+}
+
+
+.suvs{
+   background-color: #117478;
+   padding-right: 4px;
+  
+
+  
+}
+.luxury{
+    
+    background-color: #004241;
+    padding-right: 4px;
+    border-radius: 0rem 0.6rem 0 0;
+
+}
+.learnmore{
+   position: relative;
+   right: -130px;
+    top:100px;
+    left: 70px;
+  
+    
+}
+.learnmore p {
+
+height: 3vh;
+text-align: center;
+color: black;
+border-radius: 400px;
+
+}
+.btn{
+    border-radius: 30px;
+    border: 1px solid white;
+    width: 50%;
+    height: 40px;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    left: -25px;
+    top: -105px;
+
+}
+.sedan .learnmore .btn:hover{
+  
+   background-color: #e38826;
+   border: 1px solid white;
+}
+
+.sedan .learnmore .btn h3:hover{
+  
+    color: white;
+}
+
+
+.suvs .learnmore .btn:hover{
+  background-color: #117478;
+  border: 1px solid white;
+}
+.suvs .learnmore .btn h3:hover{
+  
+    color: white;
+}
+.luxury .learnmore .btn:hover{
+    background-color: #004241;
+    border: 1px solid white;
+  }
+  .luxury .learnmore .btn h3:hover{
+    
+      color: white;
+  }
+
+.btn h3{
+    color: black;
+    position: relative;
+    left: 18px;
+    top:0;
+    padding-top: 10px;
+}
+
+.sedan .btn h3{
+    color: #e38826;
+}
+.suvs .btn h3{
+    color: #117478;
+}
+.luxury .btn h3{
+    color: #004241;
+}
+
+
+
+}
+
+
